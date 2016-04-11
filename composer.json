@@ -1,0 +1,20 @@
+{
+    "name": "pvlg/steamlib",
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "*",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pvlg\\steamlib\\": "src/",
+            "pvlg\\steamlib\\web\\": "src/web/",
+            "pvlg\\steamlib\\api\\": "src/api/"
+        }
+    }
+}
